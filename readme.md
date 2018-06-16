@@ -34,5 +34,5 @@ All asserts pass but this one :
 # Things I tested
 
  * If I pause the test with a debugger, and manually hide / unhide the file with windows explorer's file property pane, I can trigger / avoid the error
- * If I create an hidden file, reboot Windows (to make sure the OS don't keep any handler on it that mays prevent writting to the file), and try to write to the file from Go, I get the same error
- * Calling WritFile with permission 0660 or 0666 instead of 0600 doesn't change the result. 
+ * If I create an hidden file, reboot Windows (to make sure the OS don't keep any handler on it that may prevent writting to the file), and try to write to the file from Go, I get the same error
+ * Calling WritFile with permission 0660 or 0666 instead of 0600 doesn't change the output. 
